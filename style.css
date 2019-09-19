@@ -1,0 +1,252 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 14px;
+    color: rgb(104, 104, 104);
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* GLOBAL */
+
+li {
+    list-style: none;
+    margin: 0;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(104, 104, 104);
+}
+
+i {
+    vertical-align: middle;
+}
+
+i:hover{
+    color: rgb(17, 17, 17);
+}
+
+/* GLOBAL */
+nav li {
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+    text-align: right;
+}
+
+header nav {
+    margin: 0px 30px;
+    padding: 10px 0;
+}
+
+header nav li {
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+nav img {
+    width: 30px;
+    border-radius: 50%;
+}
+
+/* Header Icons */
+
+.fa-th {
+    font-size: 16px;
+}
+
+.fa-th:hover {
+    color: black;
+}
+
+.fa-bell {
+    color: white;
+    background-color: grey;
+    border-radius: 50%;
+    border: 6px solid grey;
+    font-size: 10px;
+}
+
+.fa-bell:hover {
+    background-color: rgb(17, 17, 17);
+    border-color: rgb(17, 17, 17);
+    color: white;
+}
+
+/* MAIN AREA */
+main {
+    margin: 30px auto;
+    text-align: center;
+    width: 80%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Showcase */
+
+#showcase {
+    margin: auto;
+    position: relative;
+    width: 650px;
+}
+
+.showcase-img {
+    width: 650px;
+    cursor: pointer;
+}
+
+.showcase-img-share {
+    top: 190px;
+    right: 20;
+    position: absolute;
+    cursor: pointer;    
+}
+
+/* Search bar */
+#search {
+    margin: auto;
+}
+.searchbar {
+    width: 600px;
+    padding: 13px 15px;
+    box-shadow: -2px 3px 2px -2px rgb(206, 206, 206);
+    border: 1px solid rgb(236, 236, 236);
+}
+
+.searchbar:hover {
+    box-shadow: 0 2px 8px 1px rgb(214, 214, 214);
+    transition: .2s;
+}
+
+/* Searchbar icon */
+.inputwithicon {
+    position: relative;
+}
+
+.inputwithicon input {
+    padding-right: 60px;
+}
+
+.fa-keyboard {
+    top: 14px;
+    position: absolute;
+    margin-left: -45px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.fa-keyboard:hover {
+    color: black;
+}
+
+/* Search Button */
+.btn {
+    margin: 30px 5px 0px 0px;
+    padding: 11px 20px;
+    border: 1px solid white;
+    border-radius: 2px;
+    font-weight: bolder;
+    color: rgb(109, 109, 109);
+}
+
+.btn:hover {
+    border: 1px solid rgb(187, 187, 187);
+    color: rgb(56, 56, 56);
+    background-color: rgb(243, 243, 243);
+    box-shadow: 0 3px 2px -2px rgb(226, 226, 226);
+}
+
+/* Main Paragraph */
+#search p {
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+#search a {
+    color: rgb(0, 0, 194);
+    padding-left: 5px;
+}
+
+#search a:hover {
+    text-decoration: underline;
+}
+
+/* FOOTER */
+.container {
+    padding: 10px 30px;
+    border-top: 1px solid rgb(230, 230, 230);
+}
+
+footer {
+    background-color: rgb(242, 242, 242);
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    height: 80px;
+}
+
+footer h2 {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+footer li {
+    font-size: 13px;
+}
+
+.nav-1 {
+    float: left;
+}
+.nav-1 li {
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.nav-2 {
+    float: right;
+}
+
+.nav-2 li {
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+/* Responsive */
+@media only screen and (max-width: 970px) {
+    header {
+        width: 970px;
+    }
+
+    main {
+        width: 100%;
+    }
+    .wrapper {
+        width: 970px;
+    }
+
+    footer {
+        width: 970px;
+    }
+}
